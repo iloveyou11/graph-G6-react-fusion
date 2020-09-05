@@ -1,0 +1,102 @@
+.panel{
+    height: 100vh;
+}
+
+/* 左侧 */
+.panel-left{
+     background:#d3dce6;
+     display:flex;
+     flex-direction:column;
+}
+.left-head{
+  height: 100px;
+}
+.left-head .button{
+  margin:2px;
+}
+.left-head .graph{
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-head .graph .item1{
+  flex:14;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+}
+.left-head .graph .item2{
+  flex:4;
+}
+.left-head .graph .item3{
+  flex:6;
+}
+.graph-type-tip {
+  color: #666;
+  margin-left: 10px;
+}
+.graph-type-tip .type {
+  color: #1483ff;
+}
+.left-head .comps {
+  height: 60px;
+  color: #666;
+  font-size: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.left-body{
+  flex:1;
+  height: 100%;
+  width: 100%;
+}
+.left-body .container{
+  width: 100%;
+  height: 920px;
+  margin:10px;
+  background:#fff;
+}
+
+
+/* 右侧 */
+.panel-right{
+     background:#d3dce6;
+     display:flex;
+     flex-direction:column;
+}
+.right-head{
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.right-head .button{
+  margin:5px;
+}
+.right-body{
+  flex:1;
+  overflow-y: auto;
+  width:780px;
+  margin:10px;
+  background:#fff;
+}
+
+.dialog{
+  width:600px;
+  height: auto;
+}
+textarea{
+  min-height:300px;
+}
+
+.comps-btn{
+  color:#666 !important;
+  background:transparent !important;
+  border:none !important;
+}
+
+.comps-btn:hover{
+  color:#6590ff !important;
+}
